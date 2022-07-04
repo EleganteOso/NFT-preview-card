@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    line-height: 1.6;
+}
+
+main{
+    padding: 20px 20px;
+    background: hsl(216, 50%, 16%);   
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.image{    
+    width: 320px;
+    height: 320px;
+    border-radius: 10px 10px 10px 10px;
+    background: hsl(178, 100%, 50%);
+}
+
+.image img{
+    width: 320px;    
+    border-radius: 10px 10px 10px 10px;
+  
+        
+}
+
+
+.image img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+
+.title{
+    font-family: 'Outfit', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.title:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);;
+}
+
+.description{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: hsl(215, 51%, 70%); 
+    opacity: 0.5;
+    margin-left: 20px;
+}
+
+.section-data{
+    display: flex; 
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 auto;
+    margin-left: 10px;
+    
+}
+
+
+
+.price{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color:  hsl(178, 100%, 50%);
+    margin-right: 90px;
+}
+
+.time{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%); 
+    opacity: 0.5;
+
+}
+
+hr{
+    background-color: hsl(0, 0%, 100%);
+    opacity: 0.2;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.perfil{
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-self: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+
+.perfil img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.perfil:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);;
+}
+
+.perfil span{
+    color: hsl(215, 51%, 70%); 
+    opacity: 0.5;
+}
+
+
+.attribution {
+    width: 100%; 
+    font-size: 11px;
+    position: absolute; 
+    bottom: 0;
+    margin-bottom: 15px;
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 480px){
+.attribution{
+    display: none;
+}
+}
